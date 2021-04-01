@@ -16,5 +16,13 @@ namespace Project
         {
             InitializeComponent();
         }
+
+
+        private void buttonSklad_Click(object sender, EventArgs e)
+        {
+            FormSklad fs = new FormSklad();
+            fs.Show();
+            this.Hide();
+        }
     }
 }
