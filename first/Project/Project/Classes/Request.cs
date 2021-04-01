@@ -27,6 +27,13 @@ namespace Project.Classes
             count = -1;
             reqId = -1;
         }
+        public Request(string mI, string ar, string co, string rI)
+        {
+            magId = Convert.ToInt32(mI);
+            articule = Convert.ToInt32(ar);
+            count = Convert.ToInt32(co);
+            reqId = Convert.ToInt32(rI);
+        }
 
         public string MakeString()
         {

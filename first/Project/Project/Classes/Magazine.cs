@@ -8,12 +8,19 @@ namespace Project.Classes
 {
     class Magazine
     {
-        public string magMame;
-        public string prodName;
-        public int count;
-        public int Walue;
-        public int articule;
+        public string magName;
         public int magId;
+
+        public Magazine(string mn, int mi)
+        {
+            magName = mn;
+            magId = mi;
+        }
+        public string MakeString()
+        {
+            string str = magName + ";" + magId.ToString();
+            return str;
+        }
 
     }
 }

@@ -24,5 +24,12 @@ namespace Project
             fs.Show();
             this.Hide();
         }
+
+        private void buttonMagazines_Click(object sender, EventArgs e)
+        {
+            FormMagazines fm = new FormMagazines();
+            fm.Show();
+            this.Hide();
+        }
     }
 }

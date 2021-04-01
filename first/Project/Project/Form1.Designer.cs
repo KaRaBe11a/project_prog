@@ -44,6 +44,7 @@ namespace Project
             this.buttonMagazines.TabIndex = 0;
             this.buttonMagazines.Text = "Magazines";
             this.buttonMagazines.UseVisualStyleBackColor = true;
+            this.buttonMagazines.Click += new System.EventHandler(this.buttonMagazines_Click);
             // 
             // buttonSklad
             // 

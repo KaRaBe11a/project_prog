@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Magazine.cs" />
+    <Compile Include="Classes\Prod.cs" />
+    <Compile Include="Classes\Product.cs" />
     <Compile Include="Classes\Request.cs" />
     <Compile Include="Classes\Sklad.cs" />
     <Compile Include="Form1.cs">
@@ -58,6 +60,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMagazines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMagazines.Designer.cs">
+      <DependentUpon>FormMagazines.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSklad.cs">
       <SubType>Form</SubType>
@@ -70,6 +78,9 @@
     <Compile Include="WorkWithSql\Test.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMagazines.resx">
+      <DependentUpon>FormMagazines.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSklad.resx">
       <DependentUpon>FormSklad.cs</DependentUpon>

@@ -25,3 +25,4 @@ C:\dev\first\Project\Project\obj\Debug\Project.csproj.CopyComplete
 C:\dev\first\Project\Project\obj\Debug\Project.exe
 C:\dev\first\Project\Project\obj\Debug\Project.pdb
 C:\dev\first\Project\Project\obj\Debug\Project.FormSklad.resources
+C:\dev\first\Project\Project\obj\Debug\Project.FormMagazines.resources
