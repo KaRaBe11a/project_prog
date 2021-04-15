@@ -17,7 +17,7 @@ namespace Project.Classes
             walue = w;
         }
 
-        public string makeString()
+        public new string MakeString()
         {
             string str = name + ";" + articule.ToString() + ";" + walue.ToString();
             return str;

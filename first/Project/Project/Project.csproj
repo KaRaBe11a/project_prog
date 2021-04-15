@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\InterfaceMakeString.cs" />
     <Compile Include="Classes\Magazine.cs" />
     <Compile Include="Classes\Prod.cs" />
     <Compile Include="Classes\Product.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.Classes
 {
-    class Request
+    class Request : InterfaceMakeString
     {
         public int magId;
         public int articule;

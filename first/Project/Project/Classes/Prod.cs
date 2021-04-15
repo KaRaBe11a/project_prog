@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.Classes
 {
-    class Prod
+    class Prod : InterfaceMakeString
     {
         public int articule;
         public int walue;
@@ -15,6 +15,13 @@ namespace Project.Classes
         {
             articule = a;
             walue = w;
+        }
+
+        public string MakeString()
+        {
+            string str;
+            str = articule.ToString() + ";" + walue.ToString();
+            return str;
         }
     }
 }

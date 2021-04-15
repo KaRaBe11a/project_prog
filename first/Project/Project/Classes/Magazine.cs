@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.Classes
 {
-    class Magazine
+    class Magazine : InterfaceMakeString
     {
         public string magName;
         public int magId;
