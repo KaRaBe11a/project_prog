@@ -29,7 +29,7 @@ namespace Project
             products = WorkWithSql.Test.DownloadProducts();
             for(int i = 0; i<products.Count; i++)
             {
-                comboBoxProducts.Items.Add(products[i].makeString());
+                comboBoxProducts.Items.Add(products[i].MakeString());
             }
 
         }
@@ -54,7 +54,7 @@ namespace Project
             {
                 Classes.Product product;
                 product = WorkWithSql.Test.ConvertProdInProduct(prod[i].articule);
-                listBoxProducts.Items.Add(product.makeString());
+                listBoxProducts.Items.Add(product.MakeString());
             }
         }
 
